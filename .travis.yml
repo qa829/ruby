@@ -1,2 +1,7 @@
-arch: arm64
-dist: bionic
+#arch: arm64
+#dist: bionic
+
+cache: bundler
+
+script:
+- ruby -v
