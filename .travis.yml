@@ -1,5 +1,5 @@
 #arch: arm64
-#dist: bionic
+dist: bionic
 
 cache: bundler
 
