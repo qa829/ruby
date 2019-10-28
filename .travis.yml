@@ -1,4 +1,4 @@
-arch: ppc64le
+arch: s390x
 dist: bionic
 language: minimal
 
