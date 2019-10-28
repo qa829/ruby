@@ -1,5 +1,5 @@
 arch: s390x
-dist: bionic
+dist: xenial
 language: minimal
 
 cache: bundler
