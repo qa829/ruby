@@ -1,4 +1,4 @@
-arch: arm64
+arch: s390x
 dist: bionic
 language: minimal
 
