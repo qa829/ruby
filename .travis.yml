@@ -7,3 +7,5 @@ cache: bundler
 script:
 - ruby -v
 - gem env
+- gem list
+- sudo gem list
