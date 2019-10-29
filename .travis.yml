@@ -2,7 +2,6 @@ arch: s390x
 dist: xenial
 language: minimal
 
-
 cache: bundler
 
 script:
