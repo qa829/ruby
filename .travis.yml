@@ -1,6 +1,6 @@
 arch: s390x
 dist: xenial
-language: minimal
+language: ruby
 
 cache: bundler
 
