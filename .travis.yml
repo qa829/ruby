@@ -1,7 +1,7 @@
 # arch: s390x
 dist: bionic
 addons:
-  postgresql: "11.6"
+  postgresql: "11"
 language: ruby
 # group: dev
 # language: erlang
@@ -15,7 +15,7 @@ cache: bundler
 
 script:
 - uname -a
-- ps auxf
+- ps auxfw
 # - uname -a
 # - ruby -v
 # - gem env
