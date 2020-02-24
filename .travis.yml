@@ -1,10 +1,11 @@
-arch: s390x
-dist: xenial
+# arch: s390x
+dist: bionic
 language: ruby
 
 rvm:
 - 2.6.5
 - 2.5.3
+- 2.7.0
 
 cache: bundler
 
