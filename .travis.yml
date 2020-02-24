@@ -11,7 +11,7 @@ language: erlang
 cache: bundler
 
 script:
-- uname
+- uname -a
 # - ruby -v
 # - gem env
 # - gem list
