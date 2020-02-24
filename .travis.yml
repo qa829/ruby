@@ -1,17 +1,18 @@
 # arch: s390x
 dist: bionic
 group: edge
-language: ruby
+language: erlang
 
-rvm:
-- 2.6.5
-- 2.5.3
-- 2.7.0
+# rvm:
+# - 2.6.5
+# - 2.5.3
+# - 2.7.0
 
 cache: bundler
 
 script:
-- ruby -v
-- gem env
-- gem list
-- sudo gem list
+- uname
+# - ruby -v
+# - gem env
+# - gem list
+# - sudo gem list
