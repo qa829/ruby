@@ -1,6 +1,6 @@
 # arch: s390x
 dist: bionic
-group: dev
+# group: dev
 language: erlang
 
 # rvm:
