@@ -12,6 +12,7 @@ cache: bundler
 
 script:
 - uname -a
+- uname -a
 # - ruby -v
 # - gem env
 # - gem list
