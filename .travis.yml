@@ -2,7 +2,7 @@
 dist: bionic
 addons:
   postgresql: "11"
-language: php
+language: elixir
 # group: dev
 # language: erlang
 
