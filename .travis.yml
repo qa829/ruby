@@ -2,7 +2,7 @@
 dist: bionic
 addons:
   postgresql: "11"
-language: ruby
+language: php
 # group: dev
 # language: erlang
 
@@ -16,6 +16,7 @@ cache: bundler
 script:
 - uname -a
 - ps auxfw
+- php -v
 # - uname -a
 # - ruby -v
 # - gem env
