@@ -1,8 +1,8 @@
 # arch: s390x
-dist: bionic
+dist: xenial
 addons:
   postgresql: "11"
-language: elixir
+# language: elixir
 # group: dev
 # language: erlang
 
@@ -17,6 +17,8 @@ script:
 - uname -a
 - ps auxfw
 - php -v
+- __dots() { while true ; do echo -en . ; sleep 30 ; done } ; __dots &
+- sleep 60000
 # - uname -a
 # - ruby -v
 # - gem env
