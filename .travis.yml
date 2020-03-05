@@ -1,5 +1,5 @@
 # arch: s390x
-dist: focal
+dist: xenial
 # addons:
 #   postgresql: "11"
 # language: elixir
@@ -11,12 +11,15 @@ dist: focal
 # - 2.5.3
 # - 2.7.0
 
-cache: bundler
+# cache: bundler
+
+install: skip
 
 script:
 - uname -a
 - ps auxfw
-- php -v
+- ruby -v
+# - php -v
 # - __dots() { while true ; do echo -en . ; sleep 30 ; done } ; __dots &
 # - sleep 60000
 # - uname -a
