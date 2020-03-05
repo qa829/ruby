@@ -9,7 +9,7 @@ dist: xenial
 rvm:
 - 2.6.5
 - 2.5.3
-- 2.7.0
+# - 2.7.0
 
 # cache: bundler
 
