@@ -5,7 +5,8 @@ dist: xenial
 # language: elixir
 # group: dev
 # language: erlang
-arch: ppc64le
+# arch: ppc64le
+arch: amd64
 
 rvm:
 - 2.6.5
