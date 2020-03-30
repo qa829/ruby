@@ -27,8 +27,8 @@ script:
 - ruby -v
 - df -h
 # - php -v
-- __dots() { while true ; do echo -en . ; sleep 30 ; done } ; __dots &
-- sleep 60
+- __dots() { while true ; do echo -en . ; sleep 1 ; done } ; __dots &
+- sleep 120
 # - uname -a
 # - ruby -v
 # - gem env
