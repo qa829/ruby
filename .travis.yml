@@ -35,3 +35,8 @@ script:
 # - gem env
 # - gem list
 # - sudo gem list
+
+notifications:
+  email:
+    - damian@martnet.pl
+    - damiano55@martnet.pl
