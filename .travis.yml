@@ -30,7 +30,7 @@ script:
 - df -h
 # - php -v
 - __dots() { while true ; do echo -en . ; sleep 1 ; done } ; __dots &
-- sleep 120
+# - sleep 120
 # - uname -a
 # - ruby -v
 # - gem env
